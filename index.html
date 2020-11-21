@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Form Login</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="tabel.js"></script>
+</head>
+<body>
+    <center>
+        <form name="biodata" method="POST" action="index.html">
+            <fieldset>
+            <p><b>DAFTAR</b></p>
+            <p>
+                <input type="text" name="namadepan" placeholder="Nama Depan" />
+                <input type="text" name="namabelakang" placeholder="Nama Belakang" />
+                <input type="text" name="email" placeholder="Email" />
+                <input type="number" name="nohandphone" placeholder="No Handphone" />
+                <input type="password" name="password" placeholder="password" />
+            </p>
+            <p>
+                <label>Tanggal Lahir:</label>
+                <input type="date" name="tanggal" />
+            </p>
+            <p>
+                <label>Jenis kelamin:</label>
+                <label><input type="radio" name="jenis_kelamin" value="laki-laki" /> Laki-laki</label>
+                <label><input type="radio" name="jenis_kelamin" value="perempuan" /> Perempuan</label>
+            </p>
+            <p>
+                Dengan mengklik Daftar, Anda menyetujui <b>Ketentuan</b>, <b>Kebijakan Data</b> dan <b>Kebijakan Cookie</b> kami. Anda akan menerima Notifikasi SMS dari Story Creator dan dapat menolaknya kapan saja.
+            </p>
+            <p>
+                <input type="button"  onclick="terimainput()" value="DAFTAR"/>
+                
+            </p>
+            </fieldset>
+        </form>
+        <table border="2px" id="input">
+            <tr>
+                <td>Nama Depan</td>
+                <td>Nama Belakang</td>
+                <td>Email</td>
+                <td>No Handphone</td>
+                <td>Password</td>
+                <td>Tanggal Lahir</td>
+                <td>Jenis Kelamin</td>
+            </tr>
+        </table>
+    </center>
+</body>
+</html>
