@@ -1,3 +1,5 @@
+alert("SELAMAT DATANG, KLIK OK UNTUK MELANJUTKAN")
+
 function terimainput(){
     var a=document.forms['biodata']['namadepan'].value;
     var b=document.forms['biodata']['namabelakang'].value;
@@ -26,4 +28,23 @@ function terimainput(){
     kol7.innerHTML = g;
 
     alert("data berhasil di entry");
+}
+
+function hasil(){
+    var a=document.forms['penjumlahan']['bilanganpertama'].value;
+    var b=document.forms['penjumlahan']['bilangankedua'].value;
+
+    a=Number(a)
+    b=Number(b)
+
+    var total = (a + b)
+
+    var tabel = document.getElementById("hasil");
+    var baris = tabel.insertRow(1);
+    var kol1 = baris.insertCell(0);
+
+    kol1.innerHTML = total;
+
+    // document.body.style.backgroundImage="none"
+    document.body.style.backgroundColor="green"
 }

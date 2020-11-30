@@ -24,12 +24,49 @@ input[type=button] {
     background: red;
     border-radius: 30px;
 }
-table{
+table.biodata{
     margin: 50px auto;
     border-color: blue;
     background-color: whitesmoke;
-    background-image: url(img/abil.png);
     text-align: center;
     width: auto;
     height: 80px;
+    
+}
+
+.tambah{
+    position: absolute;
+    margin-top: -710px;
+    margin-left: 0px;
+    background-color: white;
+    width: 350px;
+    padding: 10px;
+}
+
+.tambah input[type=number]{
+    width: 300px;
+}
+
+.tambah input[type=button] {
+    padding: 10px;
+    width: 100px;
+    border: 1px solid #fff;
+    color: #fff;
+    background: red;
+    border-radius: 30px;
+}
+
+table.hasil{
+    margin-top: -710px;
+    margin-right: -950px;
+    border-color: red;
+    background-color: whitesmoke;
+    text-align: center;
+    width: 350px;
+    font-size: 30px;
+    height: 100px;
+}
+
+table.hasil tr{
+    border: none;
 }

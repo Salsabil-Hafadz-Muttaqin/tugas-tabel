@@ -5,7 +5,7 @@
     <link rel="stylesheet" href="style.css">
     <script src="tabel.js"></script>
 </head>
-<body>
+<body background img="">
     <center>
         <form name="biodata" method="POST" action="index.html">
             <fieldset>
@@ -35,7 +35,7 @@
             </p>
             </fieldset>
         </form>
-        <table border="2px" id="input">
+        <table border="2px" id="input" class="biodata">
             <tr>
                 <td>Nama Depan</td>
                 <td>Nama Belakang</td>
@@ -53,6 +53,19 @@
                 <td></td>
                 <td></td>
                 <td></td>
+            </tr>
+        </table>
+
+        <form name="penjumlahan" method="POST" action="index.html" class="tambah">
+            <header>PUNYA TUGAS PENJUMLAHAN? <br> JUMLAHKAN AJA DISINI!!!</header>
+            <input type="number" name="bilanganpertama" placeholder="MASUKKAN BILANGAN KE-1" />
+            <input type="number" name="bilangankedua" placeholder="MASUKKAN BILANGAN KE-2" />
+            <input type="button"  onclick="hasil()" value="JUMLAHKAN"/>
+        </form>
+
+        <table border="5px" id="hasil" class="hasil">
+            <tr>
+                <td>JUMLAH</td>
             </tr>
         </table>
     </center>
