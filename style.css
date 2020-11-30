@@ -35,7 +35,7 @@ table.biodata{
 }
 
 .tambah{
-    position: absolute;
+    /* position: absolute; */
     margin-top: -710px;
     margin-left: 0px;
     background-color: white;
@@ -57,7 +57,7 @@ table.biodata{
 }
 
 table.hasil{
-    margin-top: -710px;
+    margin-top: -240px;
     margin-right: -950px;
     border-color: red;
     background-color: whitesmoke;
